@@ -1,0 +1,162 @@
+body {
+    background: url("./netback.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    margin: 0;
+}
+
+.black-cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.6);
+    margin: 0;
+    height: 110vh;
+    width: 100%;
+}
+
+.code-button {
+    background-color: rgba(128,128,128,0.3);
+    color: white;
+    height: 40px;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.code-button:hover {
+    background-color: rgba(128,128,128,0.2);
+}
+
+.check-label {
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.desc {
+    color: grey;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.desc > .forgot {
+    font-weight: 500;
+}
+
+.desc > a {
+    color: white;
+    text-decoration: none;
+}
+
+.desc > a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.input-fields {
+    height: 50px;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+#netflix-logo {
+    width: 160px;
+    margin-left: 168px;
+    align-self:flex-start;
+}
+
+#new-user {
+    font-family: 'Martel Sans', sans-serif;
+    color: gray;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+#new-user > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#new-user > a:hover {
+    text-decoration: underline;
+}
+
+::placeholder {
+    text-indent: 15px;
+    font-family: 'Martel Sans', sans-serif;
+    color: gray;
+    font-size: 15px;
+}
+
+.signin-card {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 90vh;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.signin-content {
+    margin: 50px 65px;
+    display: flex;
+    flex-direction: column;
+}
+
+.signin-content > h1 {
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 900;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.signin-button {
+    background-color: rgb(229, 9, 20);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    height: 40px;
+}
+
+.signin-button:hover {
+    background-color: rgba(229,9,20,0.9);
+}
+
+#warning {
+    color: gray;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 12px;
+}
+
+#warning > a {
+    color: blue;
+    text-decoration: none;
+}
+
+#warning > a:hover {
+    text-decoration: underline;
+}
